@@ -1,2 +1,2 @@
 # linux-image-galliumos
-A package to pull in the kernel
+Pulls in the GalliumOS Linux kernel

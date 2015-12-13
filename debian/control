@@ -1,0 +1,14 @@
+Source: linux-image-galliumos
+Section: kernel
+Priority: optional
+Maintainer: Hugh Greenberg <hugh@galliumos.org>
+Build-Depends: debhelper (>= 8.0.0),
+               dh-systemd
+Standards-Version: 3.9.6
+
+Package: linux-image-galliumos
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, linux-image-4.1.14, linux-firmware-image-4.1.14, linux-headers-4.1.14
+Description: Gallium OS Linux kernel
+ This package pulls in the linux kernel 

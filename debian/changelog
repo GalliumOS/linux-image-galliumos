@@ -1,0 +1,5 @@
+linux-image-galliumos (1.0) vivid-galliumos; urgency=medium
+
+  * Initial release.
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sat, 12 Dec 2015 22:16:16 -0600
