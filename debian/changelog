@@ -1,3 +1,9 @@
+linux-image-galliumos (1.0.2) vivid-galliumos; urgency=medium
+
+  * Remove unneeded "linux-firmware-image-4.1.14-galliumos" from debian Depends
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 07 Feb 2016 17:25:02 +0000
+
 linux-image-galliumos (1.0.1) vivid-galliumos; urgency=medium
 
   * Add thermald and linux-firmware to depends
