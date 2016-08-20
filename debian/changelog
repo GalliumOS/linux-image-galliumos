@@ -1,3 +1,21 @@
+linux-image-galliumos (2.0.2) xenon; urgency=medium
+
+  * Update for linux-image-4.7.0-galliumos packages
+
+ -- reynhout <reynhout@galliumos.org>  Sat, 20 Aug 2016 02:37:37 +0000
+
+linux-image-galliumos (2.0.1) xenon; urgency=medium
+
+  * Update
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 09 Feb 2016 21:55:32 +0000
+
+linux-image-galliumos (2.0) xenon; urgency=medium
+
+  * Initial config for GalliumOS 2.0
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 09 Feb 2016 21:55:32 +0000
+
 linux-image-galliumos (1.0.3) vivid-galliumos; urgency=medium
 
   * Re-add "linux-firmware-image-4.1.14-galliumos" to debian Depends!
