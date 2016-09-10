@@ -1,3 +1,9 @@
+linux-image-galliumos (2.0.3) xenon; urgency=medium
+
+  * Update for linux-image-4.7.2-galliumos packages
+
+ -- reynhout <reynhout@galliumos.org>  Sat, 10 Sep 2016 01:24:24 +0000
+
 linux-image-galliumos (2.0.2) xenon; urgency=medium
 
   * Update for linux-image-4.7.0-galliumos packages

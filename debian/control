@@ -9,6 +9,6 @@ Standards-Version: 3.9.6
 Package: linux-image-galliumos
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.7.0-galliumos, linux-headers-4.7.0-galliumos, linux-firmware-image-4.7.0-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.7.2-galliumos, linux-headers-4.7.2-galliumos, linux-firmware-image-4.7.2-galliumos
 Description: GalliumOS Linux kernel
  This package pulls in the linux kernel 
