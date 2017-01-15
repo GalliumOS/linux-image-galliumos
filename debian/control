@@ -10,5 +10,14 @@ Package: linux-image-galliumos
 Architecture: all
 Priority: optional
 Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.7.2-galliumos, linux-headers-4.7.2-galliumos, linux-firmware-image-4.7.2-galliumos
-Description: GalliumOS Linux kernel
- This package pulls in the linux kernel 
+Conflicts: linux-image-galliumos-braswell
+Description: GalliumOS kernel for most models
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-braswell
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.9.2-galliumos-braswell, linux-headers-4.9.2-galliumos-braswell, linux-firmware-image-4.9.2-galliumos-braswell
+Conflicts: linux-image-galliumos
+Description: GalliumOS kernel for Braswell
+ This metapackage pulls in the kernel and related packages

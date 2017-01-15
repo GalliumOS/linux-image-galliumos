@@ -1,3 +1,10 @@
+linux-image-galliumos (2.0.4) xenon; urgency=medium
+
+  * Add linux-image-galliumos-braswell to control file
+    - Braswell audio kernel config is incompatible with Bay Trail
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 15 Jan 2017 20:10:14 +0000
+
 linux-image-galliumos (2.0.3) xenon; urgency=medium
 
   * Update for linux-image-4.7.2-galliumos packages
