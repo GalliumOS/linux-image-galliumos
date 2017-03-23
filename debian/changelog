@@ -1,3 +1,10 @@
+linux-image-galliumos (2.0.7) xenon; urgency=medium
+
+  * Update depended linux-image-galliumos{-braswell} versions to 4.10.5
+  * linux-image-galliumos-baytrail stays on 4.8.17 for now
+
+ -- reynhout <reynhout@galliumos.org>  Thu, 23 Mar 2017 02:02:49 +0000
+
 linux-image-galliumos (2.0.6) xenon; urgency=medium
 
   * Add pkg for linux-image-galliumos-baytrail
