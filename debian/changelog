@@ -1,3 +1,9 @@
+linux-image-galliumos (2.0.6) xenon; urgency=medium
+
+  * Add pkg for linux-image-galliumos-baytrail
+
+ -- reynhout <reynhout@galliumos.org>  Thu, 23 Mar 2017 01:20:48 +0000
+
 linux-image-galliumos (2.0.5) xenon; urgency=medium
 
   * Update linux-image-galliumos to linux-image-4.8.17-galliumos packages

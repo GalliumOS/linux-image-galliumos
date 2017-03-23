@@ -22,3 +22,12 @@ Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
 Description: GalliumOS kernel for Braswell
  This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-baytrail
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.8.17-galliumos, linux-headers-4.8.17-galliumos, linux-firmware-image-4.8.17-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Bay Trail
+ This metapackage pulls in the kernel and related packages
