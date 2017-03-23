@@ -1,6 +1,7 @@
 linux-image-galliumos (2.0.8) xenon; urgency=medium
 
-  * add linux-image-galliumos-baytrail to linux-image-galliumos Conflicts
+  * linux-image-galliumos: add linux-image-galliumos-baytrail to Conflicts
+  * linux-image-galliumos-baytrail: add 4.10.5-galliumos1 kernel to Breaks
 
  -- reynhout <reynhout@galliumos.org>  Thu, 23 Mar 2017 16:15:15 +0000
 

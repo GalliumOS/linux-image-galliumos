@@ -29,5 +29,6 @@ Priority: optional
 Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.8.17-galliumos, linux-headers-4.8.17-galliumos, linux-firmware-image-4.8.17-galliumos
 Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
+Breaks: linux-image-4.10.5-galliumos (<= 4.10.5-galliumos1), linux-headers-4.10.5-galliumos (<= 4.10.5-galliumos1), linux-firmware-image-4.10.5-galliumos (<= 4.10.5-galliumos1)
 Description: GalliumOS kernel for Bay Trail
  This metapackage pulls in the kernel and related packages
