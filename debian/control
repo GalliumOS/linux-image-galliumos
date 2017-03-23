@@ -10,7 +10,7 @@ Package: linux-image-galliumos
 Architecture: all
 Priority: optional
 Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.10.5-galliumos, linux-headers-4.10.5-galliumos, linux-firmware-image-4.10.5-galliumos
-Conflicts: linux-image-galliumos-braswell
+Conflicts: linux-image-galliumos-braswell, linux-image-galliumos-baytrail
 Description: GalliumOS kernel for most models
  This metapackage pulls in the kernel and related packages
 
