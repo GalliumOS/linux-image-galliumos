@@ -1,3 +1,10 @@
+linux-image-galliumos (2.0.9) xenon; urgency=medium
+
+  * updated depended linux-*-galliumos{-*} versions to 4.12.0
+  * remove Breaks config for linux-image-galliumos-baytrail
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 16 Jul 2017 01:49:52 +0000
+
 linux-image-galliumos (2.0.8) xenon; urgency=medium
 
   * linux-image-galliumos: add linux-image-galliumos-baytrail to Conflicts
