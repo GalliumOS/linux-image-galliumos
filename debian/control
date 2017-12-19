@@ -1,7 +1,7 @@
 Source: linux-image-galliumos
 Section: kernel
 Priority: optional
-Maintainer: Hugh Greenberg <hugh@galliumos.org>
+Maintainer: reynhout <reynhout@galliumos.org>
 Build-Depends: debhelper (>= 8.0.0),
                dh-systemd
 Standards-Version: 3.9.6
@@ -9,25 +9,25 @@ Standards-Version: 3.9.6
 Package: linux-image-galliumos
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.12.0-galliumos, linux-headers-4.12.0-galliumos, linux-firmware-image-4.12.0-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.14.6-galliumos, linux-headers-4.14.6-galliumos, linux-firmware-image-4.14.6-galliumos
 Conflicts: linux-image-galliumos-braswell, linux-image-galliumos-baytrail
-Description: GalliumOS kernel for most models
+Description: GalliumOS kernel for most Chromebo(ok|xe)s
  This metapackage pulls in the kernel and related packages
 
 Package: linux-image-galliumos-braswell
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.12.0-galliumos, linux-headers-4.12.0-galliumos, linux-firmware-image-4.12.0-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.14.6-galliumos, linux-headers-4.14.6-galliumos, linux-firmware-image-4.14.6-galliumos
 Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
-Description: GalliumOS kernel for Braswell
+Description: GalliumOS kernel for Braswell Chromebo(ok|xe)s
  This metapackage pulls in the kernel and related packages
 
 Package: linux-image-galliumos-baytrail
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.12.0-galliumos-baytrail, linux-headers-4.12.0-galliumos-baytrail, linux-firmware-image-4.12.0-galliumos-baytrail
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.14.6-galliumos, linux-headers-4.14.6-galliumos, linux-firmware-image-4.14.6-galliumos
 Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
-Description: GalliumOS kernel for Bay Trail
+Description: GalliumOS kernel for Bay Trail Chromebo(ok|xe)s
  This metapackage pulls in the kernel and related packages
