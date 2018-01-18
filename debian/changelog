@@ -1,3 +1,9 @@
+linux-image-galliumos (2.0.13) xenon; urgency=medium
+
+  * Update depended linux-*-galliumos{-*} versions to 4.14.14
+
+ -- reynhout <reynhout@galliumos.org>  Thu, 18 Jan 2018 18:22:08 +0000
+
 linux-image-galliumos (2.0.12) xenon; urgency=medium
 
   * Update depended linux-*-galliumos{-*} versions to 4.14.12
