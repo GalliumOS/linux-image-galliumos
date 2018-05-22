@@ -9,25 +9,79 @@ Standards-Version: 3.9.6
 Package: linux-image-galliumos
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.14.29-galliumos, linux-headers-4.14.29-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
 Conflicts: linux-image-galliumos-braswell, linux-image-galliumos-baytrail
 Description: GalliumOS kernel for most Chromebo(ok|xe)s
  This metapackage pulls in the kernel and related packages
 
-Package: linux-image-galliumos-braswell
+Package: linux-image-galliumos-sandyivy
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.14.29-galliumos, linux-headers-4.14.29-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
 Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
-Description: GalliumOS kernel for Braswell Chromebo(ok|xe)s
+Description: GalliumOS kernel for Sandy/Ivy Bridge Chromebo(ok|xe)s
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-haswell
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Haswell Chromebo(ok|xe)s
  This metapackage pulls in the kernel and related packages
 
 Package: linux-image-galliumos-baytrail
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.14.29-galliumos, linux-headers-4.14.29-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
 Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
 Description: GalliumOS kernel for Bay Trail Chromebo(ok|xe)s
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-broadwell
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Broadwell Chromebo(ok|xe)s
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-braswell
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Braswell Chromebo(ok|xe)s
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-skylake
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Skylake Chromebo(ok|xe)s
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-apollolake
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Apollo Lake Chromebo(ok|xe)s
+ This metapackage pulls in the kernel and related packages
+
+Package: linux-image-galliumos-kabylake
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
+Conflicts: linux-image-galliumos
+Provides: linux-image-galliumos
+Description: GalliumOS kernel for Kaby Lake Chromebo(ok|xe)s
  This metapackage pulls in the kernel and related packages
