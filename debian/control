@@ -53,7 +53,7 @@ Description: GalliumOS kernel for Broadwell Chromebo(ok|xe)s
 Package: linux-image-galliumos-braswell
 Architecture: all
 Priority: optional
-Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.16.13-galliumos, linux-headers-4.16.13-galliumos
+Depends: ${misc:Depends}, thermald, linux-firmware, linux-image-4.15.18-galliumos, linux-headers-4.15.18-galliumos
 Conflicts: linux-image-galliumos
 Provides: linux-image-galliumos
 Description: GalliumOS kernel for Braswell Chromebo(ok|xe)s

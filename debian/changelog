@@ -1,9 +1,10 @@
-linux-image-galliumos (3.0+dev2) bismuth; urgency=medium
+linux-image-galliumos (3.0+dev3) bismuth; urgency=medium
 
   * Prepare for GalliumOS 3.0
   * Update depended linux-*-galliumos{-*} versions to 4.15.18
   * Add metapackages for all supported SoCs
   * Update depended linux-*-galliumos{-*} versions to 4.16.13
+  * TMP? Drop -braswell back to 4.15.18
 
  -- reynhout <reynhout@galliumos.org>  Tue, 19 Jun 2018 03:50:32 +0000
 
