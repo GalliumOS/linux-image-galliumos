@@ -1,4 +1,4 @@
-linux-image-galliumos (3.0+dev4) bismuth; urgency=medium
+linux-image-galliumos (3.0.1) bismuth; urgency=medium
 
   * Prepare for GalliumOS 3.0
   * Update depended linux-*-galliumos{-*} versions to 4.15.18
